@@ -1,0 +1,386 @@
+/* WEBFONT */
+/* @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic); */
+/* vietnamese */
+
+
+/* IE */
+html {
+	-ms-overflow-style: scrollbar;
+}
+
+/* CSS GENÉRICO */
+
+
+/* TÍTULOS */
+h1, .h1 {
+	font-size: 26px;
+	padding: 10;
+}
+
+
+@media(min-width: 768px) {
+	h1, .h1 {
+		font-size: 32px;
+	}
+
+	h2, .h2 {
+		font-size: 28px;
+	}
+}
+
+
+/* TOPO */
+#banner {
+	position: relative;
+	width: 100%;
+	z-index: 90;
+}
+
+#cabecalho {
+	padding: 0;
+}
+
+/*#cabecalho {
+	position: relative;
+}*/
+
+#cabecalho a {
+	text-decoration: none;
+	opacity: 80%;
+}
+
+.topoAplicacao {
+	min-height: 50px;
+}
+
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-color: #f4f4f4;
+	display: flex;
+}
+
+@media(min-width: 768px) {
+	#cabecalho .topoAplicacao {
+		min-height: 135px;
+	}
+}
+
+@media(min-width: 768px) {
+	.logo-aproge {
+		margin-top: 100px;
+	}
+}
+
+
+
+
+
+/* Identificação do sistema/aplicação no cabeçalho */
+
+
+.topoAplicacao {
+	background:
+		-webkit-gradient(linear, left top, right top, color-stop(0%, #173010), color-stop(45%, #507c3f));
+	/* Chrome,Safari4+ */
+	background:
+		-webkit-linear-gradient(left, #173010 0%, #507c3f 45%);
+	/* Chrome10+,Safari5.1+ */
+	background:
+		-o-linear-gradient(left, #173010 0%, #507c3f 45%);
+	/* Opera 11.10+ */
+	background:
+		-ms-linear-gradient(left, #173010 0%, #507c3f 45%);
+	/* IE10+ */
+	background:
+		linear-gradient(to right, #173010 0%, #507c3f 45%);
+	/* W3C */
+}
+
+
+#cabecalho .topoAplicacao {
+	min-height: 90px !important;
+}
+
+
+.logo-camara {
+	margin-top: 1.5rem;
+	margin-left: 1rem;
+}
+
+.rodape {
+	color: #fff;
+	text-align: center;
+	background-color: #004a2f;
+	min-height: 90px;
+	background:
+		-webkit-gradient(linear, left top, right top, color-stop(0%, #173010), color-stop(45%, #507c3f));
+	/* Chrome,Safari4+ */
+	background:
+		-webkit-linear-gradient(left, #173010 0%, #507c3f 45%);
+	/* Chrome10+,Safari5.1+ */
+	background:
+		-o-linear-gradient(left, #173010 0%, #507c3f 45%);
+	/* Opera 11.10+ */
+	background:
+		-ms-linear-gradient(left, #173010 0%, #507c3f 45%);
+	/* IE10+ */
+	background:
+		linear-gradient(to right, #173010 0%, #507c3f 45%);
+	/* W3C */
+}
+
+.navbar {
+	background:
+	-webkit-gradient(linear, left top, right top, color-stop(0%, #173010), color-stop(45%, #507c3f));
+	/* Chrome,Safari4+ */
+	background:
+		-webkit-linear-gradient(left, #173010 0%, #507c3f 45%);
+	/* Chrome10+,Safari5.1+ */
+	background:
+		-o-linear-gradient(left, #173010 0%, #507c3f 45%);
+	/* Opera 11.10+ */
+	background:
+		-ms-linear-gradient(left, #173010 0%, #507c3f 45%);
+	/* IE10+ */
+	background:
+		linear-gradient(to right, #173010 0%, #507c3f 45%);
+	/* W3C */
+	border-bottom: #333;
+
+	
+}
+  
+  .navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+
+  
+  .dropdown .dropbtn {
+	font-size: 20px;  
+	border: none;
+	outline: none;
+	color: white;
+	padding: 20px 20px 20px;
+	background-color: inherit;
+	font-family: 'Krona One';
+	margin: 15;
+	z-index: 15;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: left, #000000 0%, #507c3f 45%;
+  }
+  
+  .dropdown-content {
+	display:none;
+	position: absolute;
+	font-size: 200px;
+	background-color: #ffffff;
+	min-width: 180px;
+	box-shadow: 10px 8px 16px 10px rgba(0,0,0,0.2);
+	z-index: 10;
+  }
+  
+  .dropdown-content a {
+	float: none;
+	color: #000000 ;
+	padding: 12px 16px;
+	text-decoration:double;
+	display: block;
+	text-align: left;
+  }
+
+  @media(min-width: 768px) {
+	.dropdown-content {
+		min-height: 135px;
+	}
+}
+  
+  .dropdown-content a:hover {
+	background-color: #1b7705;
+	color: #131212;
+	z-index: 80%;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+
+
+li {
+	list-style-type:"- "
+  }
+
+
+tbody tr:nth-of-type(odd){
+    background-color: #e1e1e1;
+}
+td, th{
+	top: -35px;
+    padding: 1em;
+	top: -35px;
+	box-sizing: border-box;
+}
+td.real{
+    text-align: right;
+}
+
+tfoot tr{
+    background-color: #333;
+    color: #fff
+}
+td{
+    vertical-align:baseline;
+}
+
+main{
+	height: auto;
+	flex:1;
+}
+aside{
+	height: auto;
+	width: auto;
+}
+li{
+	font-display:inherit ;
+}
+section{
+	display: flex;
+	flex-direction: row;
+	padding: 3.5vh;
+	
+}
+ 
+.link__sites{
+	opacity: 70%;
+	
+}
+
+.imagem {
+	margin-left: 10%;
+	margin: 10%;
+	height: 60%;
+	width: 60%;
+	opacity: 85%;
+	z-index: 80%;
+	box-shadow: 10px 5px 5px rgb(109, 107, 107);
+	border-radius: 52px 41px 71px;
+}
+
+
+.imagem__logos{
+	position: absolute;
+	left: 10%;
+	top:780px;
+	opacity: 30%;
+	z-index: 50%;
+	
+}
+
+@media only screen and (min-width:600px) and (max-width:1900px){
+	.imagem__logos{
+		display: none;
+	}
+}
+
+.h1__titulo{
+	margin-left: 20%;
+	font-family: 'Krona One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 56px;
+	color: #507c3f
+}
+
+/* @media only screen and (min-width:600px) and (max-width:1900px){
+	.h1__titulo{
+		font-size: 24px;
+		margin-left: 20%;
+		font-family: 'Krona One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 56px;
+	}
+} */
+
+.texto__info{
+	font-size: 24px;
+	margin: 10vh;
+	font-family: '';
+}
+
+
+@media only screen and (min-width:600px) and (max-width:1900px) {
+	.texto__info{
+		font-size:20px;
+		font-family: 'Montserrat';
+	}
+}
+
+
+
+footer{
+	background:
+	-webkit-gradient(linear, left top, right top, color-stop(0%, #173010), color-stop(45%, #507c3f));
+	/* Chrome,Safari4+ */
+	background:
+		-webkit-linear-gradient(left, #173010 0%, #507c3f 45%);
+	/* Chrome10+,Safari5.1+ */
+	background:
+		-o-linear-gradient(left, #173010 0%, #507c3f 45%);
+	/* Opera 11.10+ */
+	background:
+		-ms-linear-gradient(left, #173010 0%, #507c3f 45%);
+	/* IE10+ */
+	background:
+		linear-gradient(to right, #173010 0%, #507c3f 45%);
+	/* W3C */
+	bottom: 0;
+	height: 3rem;
+	position: fixed;
+	width: 100%;
+	display: block;
+
+}
+
+
+@media only screen and (min-width:600px) and (max-width:1900px){
+		footer {
+			height: 1rem;
+			position:fixed;
+			width: 100%;
+			display: block;
+		}
+}
+
+
+.div__footer{
+	color:white;
+	opacity: 95%;
+	float: right;
+    font-size: 13px;
+	padding: 10px;
+    margin-right: 15px;
+    text-align: right;
+	display: block;
+
+}
+
+@media only screen and (min-width:600px) and (max-width:1900px) {
+	.div__footer{
+		color:white;
+		opacity: 95%;
+		font-size: 13px;
+		padding: 0% 3px 140px 7px;
+	}
+}
+

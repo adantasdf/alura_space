@@ -1,0 +1,118 @@
+/* WEBFONT */
+/* @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic); */
+/* vietnamese */
+
+
+/* IE */
+html {
+	-ms-overflow-style: scrollbar;
+  
+}
+
+/* CSS GENÉRICO */
+
+
+/* TÍTULOS */
+h1, .h1 {
+	font-size: 26px;
+	padding: 10;
+
+}
+
+
+@media(min-width: 768px) {
+	h1, .h1 {
+		font-size: 32px;
+	}
+
+	h2, .h2 {
+		font-size: 28px;
+	}
+}
+
+
+/* TOPO */
+#banner {
+	
+	width: 100%;
+	z-index: 90;
+}
+
+#cabecalho {
+	padding: 0;
+}
+
+/*#cabecalho {
+	position: relative;
+}*/
+
+#cabecalho a {
+	text-decoration: none;
+	opacity: 80%;
+}
+
+.topoAplicacao {
+	min-height: 50px;
+}
+
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-color: #f4f4f4;
+
+}
+
+@media(min-width: 768px) {
+	#cabecalho .topoAplicacao {
+		min-height: 135px;
+	}
+}
+
+#area
+{
+  position:center;
+  left:37%;
+  top:29%;
+  width:320px;
+  height:270px;
+}
+#area #formulario
+{
+  position:center;
+  display:block;
+}
+fieldset
+{
+  width:300px;
+  height:250px;
+}
+
+
+
+legend
+{
+  font-style:bold;
+  font-family: "Segoe UI";
+}
+#formulario label
+{
+  position:center;
+  left:19px;
+  margin-right:5px;
+}
+
+
+#formulario input.campo_nome
+{
+  position:center;
+  left:95px;
+  top:23px;
+  width:225px;
+}
+#formulario input.campo_email
+{
+  position:center;
+  left:95px;
+  margin-top:2px;
+  width:225px;
+}
