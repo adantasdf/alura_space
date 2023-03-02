@@ -45,7 +45,7 @@
 			</button>
 			<div class="dropdown-content" >
 				<a href="https://camaranet.camara.leg.br/" target="_blank" >CAMARANET</a>
-				<a href="./formulario/formulario.html" target="_blank">DIARIO DE BORDO</a>
+				<a href="{% url 'formulario' %}" target="_blank">DIARIO DE BORDO</a>
 				<a href="https://autobots.camara.gov.br/djangoDeploy/deployApp/index.html" target="_blank"> AUTOBOTS</a>
 				<a href="https://ipam.camara.gov.br/index.php?page=login" target="_blank">IPAM</a>
 				<a href="https://idea.camara.leg.br/#/login" target="_blank">IDEA-N</a>
@@ -116,20 +116,20 @@
 			</aside>
 		</section>
 		<div class="imagem__logos">
-			<tr><img src="./images/vmware.png" width="100px" height="50px" alt=""></tr>
-			<tr><img src="./images/proxmox.png" width="100px" height="50px" alt=""></tr>
-			<tr><img src="./images/docker.png" width="100px" height="50px" alt=""><tr>
-			<tr><img src="./images/rancher.png" width="100px" height="50px" alt=""></tr>
-			<tr><img src="./images/python.png" width="100px" height="50px" alt=""></tr>
-			<tr><img src="./images/otrs.png" width="100px" height="50px" alt=""></tr>
-			<tr><img src="./images/kanban.png" width="100px" height="50px" alt=""></tr>
-			<tr><img src="./images/ipan.png" width="100px" height="50px" alt=""></tr>
-			<tr><img src="./images/ansible.png" width="100px" height="50px" alt=""></tr>
-			<tr><img src="./images/front.png" width="100px" height="50px" alt=""></tr>
-			<tr><img src="./images/sql.png" width="100px" height="50px" alt=""></tr>
-			<tr><img src="./images/linux.png" width="100px" height="50px" alt=""></tr>
-			<tr><img src="./images/microsoft.png" width="100px" height="50px" alt=""></tr>
-			<tr><img src="./images/rattic.png" width="100px" height="50px" alt=""></tr>
+			<tr><img src="{% static 'images/vmware.png' %}" width="100px" height="50px" alt=""></tr>
+			<tr><img src="{% static 'images/proxmox.png' %}" width="100px" height="50px" alt=""></tr>
+			<tr><img src="{% static 'images/docker.png' %}" width="100px" height="50px" alt=""><tr>
+			<tr><img src="{% static 'images/rancher.png' %}" width="100px" height="50px" alt=""></tr>
+			<tr><img src="{% static 'images/python.png' %}" width="100px" height="50px" alt=""></tr>
+			<tr><img src="{% static 'images/otrs.png' %}" width="100px" height="50px" alt=""></tr>
+			<tr><img src="{% static 'images/kanban.png' %}" width="100px" height="50px" alt=""></tr>
+			<tr><img src="{% static 'images/ipan.png' %}" width="100px" height="50px" alt=""></tr>
+			<tr><img src="{% static 'images/ansible.png' %}" width="100px" height="50px" alt=""></tr>
+			<tr><img src="{% static 'images/front.png' %}" width="100px" height="50px" alt=""></tr>
+			<tr><img src="{% static 'images/sql.png' %}" width="100px" height="50px" alt=""></tr>
+			<tr><img src="{% static 'images/linux.png' %}" width="100px" height="50px" alt=""></tr>
+			<tr><img src="{% static 'images/microsoft.png' %}" width="100px" height="50px" alt=""></tr>
+			<tr><img src="{% static 'images/rattic.png' %}" width="100px" height="50px" alt=""></tr>
 		</div>
 	<!-- Footer -->
 	<footer role="contentinfo" class="footer__pai">
